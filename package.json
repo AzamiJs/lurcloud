@@ -1,0 +1,14 @@
+{
+"name": "lurcloud",
+"version": "1.0.0",
+"description": "Scraper",
+"main": "index.js",
+"author": "AzamiJs",
+"license": "MIT",
+"dependencies": {
+"axios": "*",
+"cheerio": "npm:cheerio@1.0.0-rc.12",
+"got": "^11.8.6",
+"node-fetch": "^2.6.7"
+}
+}
