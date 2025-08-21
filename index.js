@@ -1,5 +1,6 @@
-const { gdrive, dropbox, mediafire } = require('./lib/downloader')
+const { gdrive, dropbox, mediafire, fetchDownloadLinks, getDownloadLink } = require('./lib/downloader')
 
 module.exports = {
-gdrive, dropbox, mediafire
+gdrive, dropbox, mediafire,
+fetchDownloadLinks, getDownloadLink
 }
