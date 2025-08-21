@@ -1,9 +1,9 @@
 const { gdrive, dropbox, mediafire, fetchDownloadLinks, getDownloadLink } = require('./lib/downloader')
-const { rainbow } = require('./lib/maker')
+const { rainbow, blur, invert, blue, greyscale } = require('./lib/maker')
 
 module.exports = {
 gdrive, dropbox, mediafire,
 fetchDownloadLinks, getDownloadLink,
 
-rainbow
+rainbow, blur, invert, blue, greyscale
 }
