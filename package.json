@@ -1,10 +1,30 @@
 {
 "name": "lurcloud",
 "version": "1.0.0",
-"description": "Scraper",
+"description": "Un scraper ligero y modular para Node.js, basado en axios, cheerio y got",
 "main": "index.js",
-"author": "AzamiJs",
+"keywords": [
+"scraper",
+"crawler",
+"parser",
+"axios",
+"cheerio",
+"got",
+"node-fetch"
+],
+"author": {
+"name": "AzamiJs",
+"url": "https://github.com/AzamiJs"
+},
 "license": "MIT",
+"repository": {
+"type": "git",
+"url": "git+https://github.com/AzamiJs/lurcloud.git"
+},
+"bugs": {
+"url": "https://github.com/AzamiJs/lurcloud/issues"
+},
+"homepage": "https://github.com/AzamiJs/lurcloud#readme",
 "dependencies": {
 "axios": "*",
 "cheerio": "npm:cheerio@1.0.0-rc.12",
